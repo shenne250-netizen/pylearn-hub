@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="PyLearn Hub is a static Python learning website for beginner programming learners.">
+    <title>Contact | PyLearn Hub</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-navy" aria-label="Main navigation">
+            <div class="container">
+                <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
+                    <img src="images/logo.svg" alt="" width="34" height="34">
+                    <span>PyLearn Hub</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="mainNavbar">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link "  href="index.html">Home</a></li>
+<li class="nav-item"><a class="nav-link "  href="lessons.html">Lessons</a></li>
+<li class="nav-item"><a class="nav-link "  href="practice.html">Practice</a></li>
+<li class="nav-item"><a class="nav-link "  href="resources.html">Resources</a></li>
+<li class="nav-item"><a class="nav-link active" aria-current="page" href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <section class="page-header">
+            <div class="container">
+                <p class="eyebrow">Contact</p>
+                <h1>Contact PyLearn Hub</h1>
+                <p class="lead">Use the form to send a learning enquiry. This static form provides client-side feedback only.</p>
+            </div>
+        </section>
+
+        <section class="container my-5">
+            <div class="row g-4">
+                <div class="col-lg-5">
+                    <h2>Support details</h2>
+                    <p>Email: support@pylearnhub.example</p>
+                    <p>Support hours: Monday to Friday, 9:00 to 17:00.</p>
+                    <div class="notice">
+                        <strong>Note:</strong> This GitHub Pages version does not store or send form data. A third-party form service can be added in a future version.
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <form id="contactForm" class="needs-validation" novalidate>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Full name</label>
+                            <input type="text" id="name" name="name" class="form-control" required>
+                            <div class="invalid-feedback">Please enter your full name.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email address</label>
+                            <input type="email" id="email" name="email" class="form-control" required>
+                            <div class="invalid-feedback">Please enter a valid email address.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="subject" class="form-label">Subject</label>
+                            <input type="text" id="subject" name="subject" class="form-control" required>
+                            <div class="invalid-feedback">Please enter a subject.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea id="message" name="message" class="form-control" rows="5" required></textarea>
+                            <div class="invalid-feedback">Please enter your message.</div>
+                        </div>
+                        <button class="btn btn-primary" type="submit">Send enquiry</button>
+                    </form>
+                    <p id="formMessage" class="feedback mt-3" role="status"></p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer bg-navy text-white py-4 mt-5">
+        <div class="container d-md-flex justify-content-between align-items-center gap-3">
+            <p class="mb-2 mb-md-0">&copy; 2026 PyLearn Hub. Python learning for beginners.</p>
+            <p class="mb-0">Email: support@pylearnhub.example</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
