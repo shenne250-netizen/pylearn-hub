@@ -37,7 +37,7 @@
         <section class="page-header">
             <div class="container">
                 <p class="eyebrow">Practice area</p>
-                <h1>Practise Python</h1>
+                <h1>Practice Python</h1>
                 <p class="lead">Use the examples and tasks to check your understanding of beginner Python concepts.</p>
             </div>
         </section>
@@ -92,7 +92,7 @@ print("Welcome", name, "to", course)</code></pre>
     <footer class="footer bg-navy text-white py-4 mt-5">
         <div class="container d-md-flex justify-content-between align-items-center gap-3">
             <p class="mb-2 mb-md-0">&copy; 2026 PyLearn Hub. Python learning for beginners.</p>
-            <p class="mb-0">Email: support@pylearnhub.example</p>
+            <p class="mb-0">Email: support@pylearnhub.netizen</p>
         </div>
     </footer>
 
